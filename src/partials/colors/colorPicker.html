@@ -1,0 +1,132 @@
+{{>"global/snackbar"}}
+<section>
+  <div
+    class="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-7xl lg:px-16 divide-opacity-10"
+  >
+    <div class="h-full py-12 space-y-24">
+      <div class="grid grid-cols-1">
+        <div class="relative">
+          <div class="absolute inset-0 flex items-center" aria-hidden="true">
+            <div class="w-full border-t border-midnightInterface"></div>
+          </div>
+          <div class="relative flex justify-start">
+            <span
+              class="pr-3 text-lg font-medium text-midnightText bg-midnightBase lg:"
+            >
+              Midnight
+            </span>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-4 md:grid-cols-6 lg:col-span-2">
+          {{#each data.midnight}}
+          <button
+            x-data="{}"
+            title="Click to copy"
+            data-clipboard-text="{{bg}}"
+            @click="$dispatch('notice', {type: 'success', text: ' ✓ Color Copied To Clipboard!'})"
+            class="items-center w-full h-full mx-auto duration-200 ease-in-out border rounded-2xl focus:outline-none copy-button hover:opacity-80 border-midnightInterface"
+          >
+            <div class="bg-[{{bg}}] rounded-t-2xl h-24 w-full"></div>
+            <div class="flex flex-wrap p-4 text-left">
+              <div>
+                <p
+                  class="text-xs font-light capitalize i text-midnightFocusHigh"
+                >
+                  <span>{{name}} </span>
+                </p>
+              </div>
+              <div class="ml-auto">
+                <p class="text-xs font-light text-midnightText">
+                  <span> {{bg}} </span>
+                </p>
+              </div>
+            </div>
+          </button>
+          {{/each}}
+        </div>
+      </div>
+      <div class="grid grid-cols-1">
+        <div class="relative">
+          <div class="absolute inset-0 flex items-center" aria-hidden="true">
+            <div class="w-full border-t border-midnightInterface"></div>
+          </div>
+          <div class="relative flex justify-start">
+            <span
+              class="pr-3 text-lg font-medium text-midnightText bg-midnightBase lg:"
+            >
+              Sunset
+            </span>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-4 md:grid-cols-6 lg:col-span-2">
+          {{#each data.sunset}}
+          <button
+            x-data="{}"
+            title="Click to copy"
+            data-clipboard-text="{{bg}}"
+            @click="$dispatch('notice', {type: 'success', text: ' ✓ Color Copied To Clipboard!'})"
+            class="items-center w-full h-full mx-auto duration-200 ease-in-out border rounded-2xl focus:outline-none copy-button hover:opacity-80 border-midnightInterface"
+          >
+            <div class="bg-[{{bg}}] rounded-t-2xl h-24 w-full"></div>
+            <div class="flex flex-wrap p-4 text-left">
+              <div>
+                <p
+                  class="text-xs font-light capitalize i text-midnightFocusHigh"
+                >
+                  <span>{{name}} </span>
+                </p>
+              </div>
+              <div class="ml-auto">
+                <p class="text-xs font-light text-midnightText">
+                  <span> {{bg}} </span>
+                </p>
+              </div>
+            </div>
+          </button>
+          {{/each}}
+        </div>
+      </div>
+      <div class="grid grid-cols-1">
+        <div class="relative">
+          <div class="absolute inset-0 flex items-center" aria-hidden="true">
+            <div class="w-full border-t border-midnightInterface"></div>
+          </div>
+          <div class="relative flex justify-start">
+            <span
+              class="pr-3 text-lg font-medium text-midnightText bg-midnightBase lg:"
+            >
+              Morning
+            </span>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-4 md:grid-cols-6 lg:col-span-2">
+          {{#each data.morning}}
+          <button
+            x-data="{}"
+            title="Click to copy"
+            data-clipboard-text="{{bg}}"
+            @click="$dispatch('notice', {type: 'success', text: ' ✓ Color Copied To Clipboard!'})"
+            class="items-center w-full h-full mx-auto duration-200 ease-in-out border rounded-2xl focus:outline-none copy-button hover:opacity-80 border-midnightInterface"
+          >
+            <div class="bg-[{{bg}}] rounded-t-2xl h-24 w-full"></div>
+            <div class="flex flex-wrap p-4 text-left">
+              <div>
+                <p
+                  class="text-xs font-light capitalize i text-midnightFocusHigh"
+                >
+                  <span>{{name}} </span>
+                </p>
+              </div>
+              <div class="ml-auto">
+                <p class="text-xs font-light text-midnightText">
+                  <span> {{bg}} </span>
+                </p>
+              </div>
+            </div>
+          </button>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
