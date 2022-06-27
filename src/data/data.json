@@ -1,189 +1,190 @@
 {
-  "morning": [
+  "monochrome": [
     {
-      "bg": "#D26A5D",
-      "name": "Coral"
+      "bg": "#626983",
+      "name": "Kashmir"
     },
     {
-      "bg": "#F19A8E",
-      "name": "Salmon"
+      "bg": "#7C829D",
+      "name": "Slate"
     },
     {
-      "bg": "#3788BE",
-      "name": "Fennel"
+      "bg": "#999EB2",
+      "name": "Logan"
     },
     {
-      "bg": "#77AAB3",
-      "name": "Mint"
+      "bg": "#B6BAC8",
+      "name": "Cadet"
     },
     {
-      "bg": "#886CDB",
-      "name": "Violet"
+      "bg": "#D3D5DE",
+      "name": "Cat"
     },
     {
-      "bg": "#7397DE",
-      "name": "Sky"
+      "bg": "#E2E4ED",
+      "name": "Cloud"
     },
     {
-      "bg": "#FDFDFE",
+      "bg": "#0F1014",
       "name": "Base"
     },
     {
-      "bg": "#F1F1F4",
+      "bg": "#111216",
       "name": "Interface"
     },
     {
-      "bg": "#D8DAE4",
+      "bg": "#131317",
       "name": "Overlay"
     },
     {
-      "bg": "#8388AD",
+      "bg": "#43444D",
       "name": "Soft"
     },
     {
-      "bg": "#5F6488",
+      "bg": "#575861",
       "name": "Slight"
     },
     {
-      "bg": "#4E5377",
+      "bg": "#868690",
       "name": "Text"
     },
     {
-      "bg": "#C1C3D6",
+      "bg": "#121216",
       "name": "Focus Low"
     },
     {
-      "bg": "#AAB0D5",
+      "bg": "#1A1B1F",
       "name": "Focus Medium"
     },
     {
-      "bg": "#949ABE",
+      "bg": "#1F1F24",
       "name": "Focus High"
     }
   ],
-  "sunset": [
+  "moonlight": [
     {
-      "bg": "#D1918F",
-      "name": "Coral"
+      "bg": "#03C7F6",
+      "name": "Blue"
     },
     {
-      "bg": "#D6B4B4",
-      "name": "Salmon"
+      "bg": "#887BFF",
+      "name": "Indigo"
     },
     {
-      "bg": "#709BBD",
-      "name": "Fennel"
+      "bg": "#FF7CBA",
+      "name": "Pink"
     },
     {
-      "bg": "#AAC9D4",
-      "name": "Mint"
+      "bg": "#FFBB88",
+      "name": "Orange"
     },
     {
-      "bg": "#A392DC",
-      "name": "Violet"
+      "bg": "#BFBBBB",
+      "name": "Stone"
     },
     {
-      "bg": "#A0B6E8",
-      "name": "Sky"
+      "bg": "#697078",
+      "name": "Metal"
     },
     {
-      "bg": "#202231",
+      "bg": "#0F1014",
       "name": "Base"
     },
     {
-      "bg": "#272938",
+      "bg": "#111216",
       "name": "Interface"
     },
     {
-      "bg": "#363847",
+      "bg": "#131317",
       "name": "Overlay"
     },
     {
-      "bg": "#6B6D7C",
-      "name": "soft"
-    },
-    {
-      "bg": "#8D8F9E",
-      "name": "Slight"
-    },
-    {
-      "bg": "#DEE0EF",
-      "name": "Text"
-    },
-    {
-      "bg": "#292A3A",
-      "name": "Focus Low"
-    },
-    {
-      "bg": "#414354",
-      "name": "Focus Medium"
-    },
-    {
-      "bg": "#535568",
-      "name": "Focus High"
-    }
-  ],
-  "midnight": [
-    {
-      "bg": "#EE8679",
-      "name": "Coral"
-    },
-    {
-      "bg": "#F8D2C9",
-      "name": "Salmon"
-    },
-    {
-      "bg": "#5BA2D0",
-      "name": "Fennel"
-    },
-    {
-      "bg": "#9CCFD8",
-      "name": "Mint"
-    },
-    {
-      "bg": "#A78BFA",
-      "name": "Violet"
-    },
-    {
-      "bg": "#94B8FF",
-      "name": "Sky"
-    },
-    {
-      "bg": "#151726",
-      "name": "Base"
-    },
-    {
-      "bg": "#1C1E2D",
-      "name": "Interface"
-    },
-    {
-      "bg": "#232534",
-      "name": "Overlay"
-    },
-    {
-      "bg": "#6B6D7C",
+      "bg": "#43444D",
       "name": "Soft"
     },
     {
-      "bg": "#8D8F9E",
+      "bg": "#575861",
       "name": "Slight"
     },
     {
-      "bg": "#DEE0EF",
+      "bg": "#868690",
       "name": "Text"
     },
     {
-      "bg": "#1F212F",
+      "bg": "#121216",
       "name": "Focus Low"
     },
     {
-      "bg": "#3E404F",
+      "bg": "#1A1B1F",
       "name": "Focus Medium"
     },
     {
-      "bg": "#535568",
+      "bg": "#1F1F24",
       "name": "Focus High"
     }
-
+  ],
+  "desaturated": [
+    {
+      "bg": "#A6EBFC",
+      "name": "Blue"
+    },
+    {
+      "bg": "#A9A0FF",
+      "name": "Indigo"
+    },
+    {
+      "bg": "#FFA0CD",
+      "name": "Pink"
+    },
+    {
+      "bg": "#FFCEA9",
+      "name": "Orange"
+    },
+    {
+      "bg": "#D1CECE",
+      "name": "Stone"
+    },
+    {
+      "bg": "#92979D",
+      "name": "Metal"
+    },
+    {
+      "bg": "#151516",
+      "name": "Base"
+    },
+    {
+      "bg": "#161517",
+      "name": "Interface"
+    },
+    {
+      "bg": "#161617",
+      "name": "Overlay"
+    },
+    {
+      "bg": "#55565C",
+      "name": "Soft"
+    },
+    {
+      "bg": "#63636A",
+      "name": "Slight"
+    },
+    {
+      "bg": "#828289",
+      "name": "Text"
+    },
+    {
+      "bg": "#161517",
+      "name": "Focus Low"
+    },
+    {
+      "bg": "#181819",
+      "name": "Focus Medium"
+    },
+    {
+      "bg": "#19191B",
+      "name": "Focus High"
+    }
   ]
+
+
 }
