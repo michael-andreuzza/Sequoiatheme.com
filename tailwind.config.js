@@ -8,7 +8,7 @@ module.exports = {
         sequoia: "linear-gradient( 229.7deg, #fdfdfe 14.85 % , #ffbb88 20.61 % , #ff7cba 26.17 % , #887bff 31.93%, #03c7f6 46.54 % , #0f1014 54.36%)",
       },
       colors: {
-        //Moonlight
+        //Base Colors
         moonlightBase: "#0F1014",
         moonlightInterface: "#111216",
         moonlightOverlay: "#131317",
@@ -19,32 +19,15 @@ module.exports = {
         moonlightFocusMedium: "#1A1B1F",
         moonlightFocusHigh: "#1F1F24",
 
-        moonlightMetal: "#697078",
-        moonlightStone: "#BFBBBB",
-        moonlightOrange: "#FFBB88",
-        moonlightPink: "#FF7CBA",
-        moonlightIndigo: "#887BFF",
-        moonlightBlue: "#03C7F6",
+        //Moonlight Accents
+        moonlightWhite: "#fdfdfe",
+        moonlightStone: "#9898a6",
+        moonlightOrange: "#ffbb88",
+        moonlightPink: "#f58ee0",
+        moonlightIndigo: "#c58fff",
+        moonlightBlue: "#8eb6f5",
 
-        //desaturated
-        desaturatedBase: "#151516",
-        desaturatedInterface: "#161517",
-        desaturatedOverlay: "#161617",
-        desaturatedSoft: "#55565C",
-        desaturatedSlight: "#63636A",
-        desaturatedText: "#828289",
-        desaturatedFocusLow: "#161517",
-        desaturatedFocusMedium: "#181819",
-        desaturatedFocusHigh: "#19191B",
-
-        desaturatedMetal: "#92979D",
-        desaturatedStone: "#D1CECE",
-        desaturatedOrange: "#FFCEA9",
-        desaturatedPink: "#FFA0CD",
-        desaturatedIndigo: "#A9A0FF",
-        desaturatedBlue: "#A6EBFC",
-        //monochrome
-
+        //Monochrome Accents
         monochromeKashmir: "#626983",
         monochromeSlate: "#7C829D",
         monochromeLogan: "#999EB2",
