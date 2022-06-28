@@ -63,27 +63,27 @@
   ],
   "moonlight": [
     {
-      "bg": "#03C7F6",
+      "bg": "#8eb6f5",
       "name": "Blue"
     },
     {
-      "bg": "#887BFF",
+      "bg": "#c58fff",
       "name": "Indigo"
     },
     {
-      "bg": "#FF7CBA",
+      "bg": "#f58ee0",
       "name": "Pink"
     },
     {
-      "bg": "#FFBB88",
+      "bg": "#ffbb88",
       "name": "Orange"
     },
     {
-      "bg": "#BFBBBB",
+      "bg": "#9898a6",
       "name": "Stone"
     },
     {
-      "bg": "#697078",
+      "bg": "#fdfdfe",
       "name": "Metal"
     },
     {
