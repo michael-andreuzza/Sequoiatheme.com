@@ -1,29 +1,5 @@
 {
-  "monochrome": [
-    {
-      "bg": "#626983",
-      "name": "Kashmir"
-    },
-    {
-      "bg": "#7C829D",
-      "name": "Slate"
-    },
-    {
-      "bg": "#999EB2",
-      "name": "Logan"
-    },
-    {
-      "bg": "#B6BAC8",
-      "name": "Cadet"
-    },
-    {
-      "bg": "#D3D5DE",
-      "name": "Cat"
-    },
-    {
-      "bg": "#E2E4ED",
-      "name": "Cloud"
-    },
+  "base": [
     {
       "bg": "#0F1014",
       "name": "Base"
@@ -85,42 +61,32 @@
     {
       "bg": "#fdfdfe",
       "name": "Metal"
+    }
+  ],
+  "monochrome": [
+    {
+      "bg": "#626983",
+      "name": "Kashmir"
     },
     {
-      "bg": "#0F1014",
-      "name": "Base"
+      "bg": "#7C829D",
+      "name": "Slate"
     },
     {
-      "bg": "#111216",
-      "name": "Interface"
+      "bg": "#999EB2",
+      "name": "Logan"
     },
     {
-      "bg": "#131317",
-      "name": "Overlay"
+      "bg": "#B6BAC8",
+      "name": "Cadet"
     },
     {
-      "bg": "#43444D",
-      "name": "Soft"
+      "bg": "#D3D5DE",
+      "name": "Cat"
     },
     {
-      "bg": "#575861",
-      "name": "Slight"
-    },
-    {
-      "bg": "#868690",
-      "name": "Text"
-    },
-    {
-      "bg": "#121216",
-      "name": "Focus Low"
-    },
-    {
-      "bg": "#1A1B1F",
-      "name": "Focus Medium"
-    },
-    {
-      "bg": "#1F1F24",
-      "name": "Focus High"
+      "bg": "#E2E4ED",
+      "name": "Cloud"
     }
   ]
 }

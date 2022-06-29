@@ -67,5 +67,41 @@
         </div>
       </div>
     </div>
+    <div>
+      <div class="grid grid-cols-1">
+        <div class="text-base font-light leading-none text-monochromeCloud">
+          <span>Monochrome</span>
+        </div>
+        <div
+          class="grid grid-cols-2 gap-4 mt-4 md:grid-cols-3 lg:grid-cols-9 lg:col-span-2"
+        >
+          {{#each data.base}}
+          <button
+            x-data="{}"
+            title="Click to copy"
+            data-clipboard-text="{{bg}}"
+            @click="$dispatch('notice', {type: 'success', text: ' ✓ Color Copied To Clipboard!'})"
+            class="items-center w-full h-full mx-auto duration-200 ease-in-out focus:outline-none copy-button hover:opacity-80"
+          >
+            <div
+              class="bg-[{{bg}}]  h-24 w-full border border-moonlightFocusHigh"
+            ></div>
+            <div class="flex flex-col pt-4 text-left">
+              <div>
+                <p class="text-xs font-light capitalize i text-moonlightText">
+                  <span>{{name}} </span>
+                </p>
+              </div>
+              <div>
+                <p class="text-xs font-light text-moonlightText">
+                  <span> {{bg}} </span>
+                </p>
+              </div>
+            </div>
+          </button>
+          {{/each}}
+        </div>
+      </div>
+    </div>
   </div>
 </section>
